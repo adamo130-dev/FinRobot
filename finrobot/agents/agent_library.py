@@ -46,6 +46,16 @@ library = [
         ],
     },
     {
+        "name": "RL_Trader",
+        "profile": "As an RL Trader, you are responsible for implementing and managing reinforcement learning-based trading strategies. You should be proficient in using FinRL for training and deploying trading agents, analyzing their performance, and making necessary adjustments to improve trading outcomes.",
+        "toolkits": [
+            YFinanceUtils.get_stock_data,
+            FinRLUtils.create_env,
+            FinRLUtils.train_model,
+            FinRLUtils.test_model,
+        ],
+    },
+    {
         "name": "Expert_Investor",
         "profile": dedent(
             f"""
