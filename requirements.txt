@@ -1,4 +1,6 @@
 pyautogen>=0.2.19
+nltk==3.8.1
+marker-pdf
 ipython
 huggingface_hub
 matplotlib
@@ -25,13 +27,10 @@ wheel>=0.33.6
 praw
 tushare
 pandas_datareader
-
 pdfkit==1.0.0
-marker-pdf
 pandas==2.0.3
 aiohttp==3.8.5
 langchain==0.1.20
-nltk==3.8.1
 numpy==1.26.4
 ratelimit==2.2.1
 Requests==2.31.0
@@ -41,3 +40,8 @@ tenacity==8.3.0
 tqdm==4.66.1
 typing_extensions==4.9.0
 unstructured==0.8.1
+
+#FinRl
+finrl
+stable-baselines3
+gymnasium
